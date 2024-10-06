@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Rounded corners and padding -->
+            <corners android:radius="8dp" />
+            <!-- Background color for the card -->
+            <gradient
+                android:angle="0"
+                android:centerColor="#E0F3FF"
+                android:endColor="#00000000"
+                android:startColor="#D1E5F4"
+                android:type="linear" />
+            <!-- Rounded corners and padding -->
+            <!--            <padding android:bottom="2dp" android:left="0.9dp" android:right="0dp" android:top="0.7dp" />-->
+        </shape>
+    </item>
+
+    <!-- Shadow layer -->
+    <item
+        android:bottom="2dp" android:left="0.9dp" android:right="0dp" android:top="0.7dp"
+        >
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <gradient
+                android:angle="0"
+                android:centerColor="#E0F3FF"
+                android:endColor="#00000000"
+                android:startColor="#D1E5F4"
+                android:type="linear" /><!-- 0,45,90,135,180,225,270,315,360 -->
+        </shape>
+    </item>
+
+    <!-- Foreground shape -->
+    <item
+        android:bottom="2dp" android:left="0.9dp" android:right="0dp" android:top="0.7dp"
+        >
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:centerColor="#F9FCFF"
+                android:endColor="#00000000"
+                android:startColor="#E0F3FF"
+                android:type="linear" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
+
